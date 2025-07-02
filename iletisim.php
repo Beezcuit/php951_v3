@@ -22,18 +22,18 @@
     <div class="container">
        <div class="row text-center">
             <div class="col-md-4 flexList align-items-center">
-                  <a href="tel:+9<?php echo $ayarlarRow ['telefon'];?>"> <?php echo $ayarlarRow ['telefon'];?></a>
-                <i class="bi bi-telephone"></i>
+                  <a href="tel:+9<?php echo $ayarlarRow ['telefon'];?>" class="text-dark"> <?php echo $ayarlarRow ['telefon'];?></a>
+                <i class="bi bi-telephone" class="fs-1"></i>
               
             </div>
             <div class="col-md-4">
-                <a href="https://wa.me/+9<?php echo $ayarlarRow ['wp'];?>">Canlı Destek</a><br>
-                <i class="bi bi-whatsapp"></i>
+                <a href="https://wa.me/+9<?php echo $ayarlarRow ['wp'];?>" class="text-dark">Canlı Destek</a><br>
+                <i class="bi bi-whatsapp" class="fs-1"></i>
             
             </div>
             <div class="col-md-4">
-                <a href="mailto:<?php echo $ayarlarRow ['eposta'];?>"><?php echo $ayarlarRow ['eposta'];?></a><br>
-                <i class="bi bi-envelope"></i>
+                <a href="mailto:<?php echo $ayarlarRow ['eposta'];?>" class="text-dark" ><?php echo $ayarlarRow ['eposta'];?></a><br>
+                <i class="bi bi-envelope" class="fs-1"></i>
                
             </div>
         </div>
