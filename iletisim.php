@@ -32,7 +32,7 @@
             
             </div>
             <div class="col-md-4">
-                <a href="mailto:<?php echo $ayarlarRow ['eposta'];?>" class="text-dark" ><?php echo $ayarlarRow ['eposta'];?></a><br>
+                <a href="mailto:<?php echo $ayarlarRow ['eposta'];?>" class="text-dark"><?php echo $ayarlarRow ['eposta'];?></a><br>
                 <i class="bi bi-envelope" class="fs-1"></i>
                
             </div>

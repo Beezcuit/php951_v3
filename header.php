@@ -36,7 +36,7 @@ $dijitalRow = $dijital->fetch();
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Google Search Console Code Start -->
-    <meta name="google-site-verification" content="<?php echo $dijitalRow["console"]; ?>" />
+    <meta name="google-site-verification" content="<?php echo $dijitalRow["console"]; ?>">
     <!-- Google Search Console Code End -->
 
     <!-- Google Analytics Code Start -->
@@ -78,7 +78,7 @@ $dijitalRow = $dijital->fetch();
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=<?php echo $dijitalRow['pixel']; ?>&ev=PageView&noscript=1" />
+            src="https://www.facebook.com/tr?id=<?php echo $dijitalRow['pixel']; ?>&ev=PageView&noscript=1">
     </noscript>
     <!-- Facebook Pixel Code End -->
     <title>Document</title>
