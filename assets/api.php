@@ -1,5 +1,6 @@
 <?php
 
+
 header('Content-Type:application/json'); //Kendi sitemiz içinde
 // header("Access-Control-Allow-Origin: *"); // Tüm domain'lerin bu API'ye erişmesine izin verir.
 header("Access-Control-Allow-Origin: https://frontend-sitem.com"); // Sadece belli bir domain’e izin vermek istersen
@@ -17,4 +18,8 @@ echo json_encode($kategorilerSatir);
 Erişim tipi             | $veri["alanAdi"]  | $veri->alanAdi
 json_encode() çıktısı   | Aynı görünür      | Aynı görünür
 Performans              | Hemen hemen aynı  | Aynı
+
+
+PDO::FETCH_ASSOC = php ile
+PDO::FETCH_OBJ  = php ile
 */
